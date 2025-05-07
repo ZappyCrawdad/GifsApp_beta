@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+body {
+    transition: background 0.3s ease, color 0.3s ease;
+    background: var(--background-color);
+    color: var(--text-color);
+  }
+  /*Tema por defecto*/
+/* body {
+    --text-color: #222;
+    --background-color: #fff;
+  }
+  
+  body.dark-theme {
+    --text-color: #fff;
+    --background-color: #222;
+  } */
+  
+  /* Tema: Página Home */
+body.theme-home {
+    --background-color: #f1f5f9;
+    --text-color: #1e293b;
+  }
+  body.theme-home.dark-theme {
+    --background-color: #02000f;
+    --text-color: #ffffff;
+  }
