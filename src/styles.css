@@ -1,11 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+@import "primeicons/primeicons.css";
+
 
 body {
     transition: background 0.3s ease, color 0.3s ease;
     background: var(--background-color);
     color: var(--text-color);
   }
+
+  
+
   /*Tema por defecto*/
 /* body {
     --text-color: #222;

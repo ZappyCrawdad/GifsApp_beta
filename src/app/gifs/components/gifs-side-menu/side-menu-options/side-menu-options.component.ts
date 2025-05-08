@@ -17,13 +17,13 @@ export class SideMenuOptionsComponent {
 
   menuOptions:MenuOptions[] = [
     {
-      icon: 'fa-solid fa-chart-line',
+      icon: 'pi pi-chart-line',
       label: 'Trending',
       sublabel: 'Gifs Populares',
       route: '/dashboard/trending'
     },
     {
-      icon: 'fa-solid fa-magnifying-glass',
+      icon: 'pi pi-search',
       label: 'Buscador',
       sublabel: 'Buscar gifs',
       route: '/dashboard/search'
