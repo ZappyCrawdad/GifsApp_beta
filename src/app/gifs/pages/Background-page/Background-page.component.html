@@ -1,11 +1,13 @@
+<div class="container-md flex justify-center items-center w-screen h-screen">
+  <div class="row row-cols-1 text-center space-y-4">
 
-  <div class="container-md flex justify-center items-center w-screen h-screen border-1">
-    <div class="row row-cols-1 text-center ">
+    <h1 class="text-4xl font-bold underline">Background Theme it's working!</h1>
 
-      <h1 class=" text-3xl font-bold underline border-1">Background Theme it's working!</h1>
+    <!-- Aumenta el tamaño de fuente usando una clase más grande o estilo personalizado -->
+    <button (click)="toggle()" 
+            class="text-[20rem] leading-none p-0 bg-transparent hover:scale-120 transition-transform duration-200">
+      {{ theme.icon }}
+    </button>
 
-      <button (click)="toggle()" class="text-9xl border-1">{{ theme.icon }}</button>
-
-    </div>
-    
   </div>
+</div>
